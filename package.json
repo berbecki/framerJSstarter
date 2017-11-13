@@ -1,0 +1,21 @@
+{
+  "name": "framerJSstarter",
+  "version": "1.0.0",
+  "description": "FramerJS scaffolding library",
+  "main": "index.js",
+  "author": "Jacek Berbecki",
+  "license": "MIT",
+  "repository": "https://github.com/berbecki/framerJSstarter.git",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "framerjs": "https://github.com/koenbok/Framer.git",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "merge-stream": "^1.0.1"
+  },
+  "scripts": {
+    "postinstall": "sh buildFramerSources.sh",
+    "clean": "gulp clean"
+  }
+}
